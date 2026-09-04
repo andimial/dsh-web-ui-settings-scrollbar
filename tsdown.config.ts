@@ -6,8 +6,6 @@ const PLUGIN_ID = "@dsh-external/dsh-settings-nav-scroll"
 const CLIENT_EXTERNALS = [
   'react', 'react/jsx-runtime', 'react-dom', 'react-dom/client',
   'cordis',
-  '@deepseek-ai/dsh-client-ui-slots',
-  '@deepseek-ai/dsh-client-runtime/client',
 ]
 
 const clientBundle: UserConfig = {
