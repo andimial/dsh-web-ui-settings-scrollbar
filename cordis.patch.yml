@@ -1,0 +1,7 @@
+# dsh-settings-nav-scroll bundle patch: inserts the settings-nav scrollbar
+# plugin row into the web profile roster. The browser half injects a stylesheet
+# that lets the settings dialog's left navigation list scroll when it
+# overflows (official .panel has overflow:hidden and .navList no overflow-y).
+- insert:
+    - id: settings-nav-scroll
+      name: '@dsh-external/dsh-settings-nav-scroll'
